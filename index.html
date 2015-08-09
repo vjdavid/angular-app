@@ -9,6 +9,12 @@
 
   <p> {{ "Hello World" }} </p>
 
+  <div ng-controller="StoreController as store">
+    <p> {{ store.person.name }} </p>
+    <p> {{ store.person.lastName }} </p>
+    <p> {{ store.person.age }} </p>
+  </div>
+
   <script src="scripts/angular.min.js"></script>
   <script src="scripts/app.js"></script>
 </body>
